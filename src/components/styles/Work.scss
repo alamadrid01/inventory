@@ -1,0 +1,24 @@
+.work{
+    margin-top: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.25rem;
+        display: flex;
+    }
+    button{
+        outline: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+        color: #6d07f3;
+        margin-left: 3px;
+    }
+}
