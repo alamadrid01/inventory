@@ -1,0 +1,101 @@
+.contact{
+    padding: 1rem calc((90vw - 1000px) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1{
+        width: 60%;
+        text-align: center;
+        line-height: 1.125;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    form{
+        // width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .hold{
+            display: flex;
+            gap: 30px;
+
+            .a{
+
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                
+
+                label{
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                    color: rgba(128, 128, 128, 0.63);
+                    font-weight: 400;
+                }
+                input{
+                    font-size: 1.25rem;
+                    padding: 10px 8px;
+                    color: rgb(70, 66, 66);
+                    width: 250px;
+                    padding: 15px;
+                    border-radius: 8px;
+                    outline: none;
+                    border: 1px solid rgba(128, 128, 128, 0.486);
+
+                    &:focus{
+                        outline: lightblue;
+                    }
+                }
+            }
+        }
+        .message{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            label{
+                font-size: 20px;    
+                margin-bottom: 10px;
+                color: rgba(128, 128, 128, 0.63);
+                font-weight: 400;
+            }
+
+            textarea{
+                font-size: 1.25rem;
+                padding: 10px 8px;
+                color: rgb(70, 66, 66);
+                width: 580px;
+                height: 30vh;
+                border-radius: 8px;
+                border: 1px solid rgba(128, 128, 128, 0.486);
+
+                &:focus{
+                    outline: lightblue;
+                }
+            }
+            
+        }
+        button{
+            border-radius: 30px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            color: #6d07f3;
+            border: 2px solid #6d07f3;
+            padding: 15px 70px;
+            font-weight: 500;
+            font-size: 20px;
+
+            &:hover{
+                color: white;
+                background: #6d07f3;
+            }
+        }
+    }
+}
