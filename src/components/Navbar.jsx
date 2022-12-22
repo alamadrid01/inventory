@@ -7,8 +7,8 @@ function Navbar() {
   return (
     <nav>
       <div className="left">
-        <Link to="/"><img src={logo} alt="logo" /></Link>
-        <h3>Hi</h3>
+        {/* <Link to="/"><img src={logo} alt="logo" /></Link> */}
+        <h3>Welcome</h3>
       </div>
       <div className="right">
         <button>

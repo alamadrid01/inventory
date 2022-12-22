@@ -32,7 +32,7 @@ nav{
         background: #fff;
         color: #6E07F3;
         border: 2px solid #6E07F3;
-        padding: 0.5rem 1rem;
+        padding: 0.6rem 1.2rem;
         font-size: 1.1rem;
         border-radius: 15px;
         cursor: pointer;
@@ -41,12 +41,15 @@ nav{
 
         &:hover{
             background: #6E07F3;
-            color: #fff;
-            transition: 0.3s ease-out;
         }
 
         .link{
           color: #6E07F3;
+
+          &:hover{
+            color: #fff;
+            transition: 0.3s ease-out;
+        }
         }
     }
   }

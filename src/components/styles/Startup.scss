@@ -1,26 +1,24 @@
-.work{
-    margin-top: 42rem;
+.startup{
+    top: 30rem;
+    position: relative;
+    background: #6e07f3;
+    padding: 10rem 20rem 15rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
 
-    h2{
-        font-size: 2rem;
-        margin-bottom: 2rem;
+    h2 {
+      font-size: clamp(2rem, 4vw, 1rem);
+      margin-bottom: 1.6rem;
     }
-    p{
-        font-size: 1.25rem;
-        display: flex;
-    }
-    button{
-        outline: none;
-        border: none;
-        margin: 0;
-        padding: 0;
-        color: #6d07f3;
-        margin-left: 3px;
+    p {
+      text-align: center;
+      line-height: 1.5;
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      font-weight: 300;
     }
 
     .card-holder{
@@ -34,7 +32,7 @@
         margin-top: 30px;
         width: 100%;
         position: absolute;
-        top: 8rem;
+        top: 23em;
 
         .card{
             width: 360px;
@@ -50,6 +48,14 @@
             flex-direction: column;
             color: #141c3a;
 
+
+            .back{
+            //     background: url(../assets/first.png) no-repeat center center/cover ;
+            //     -webkit-background-size: cover;
+            //     -moz-background-size: cover;
+            //     -o-background-size: cover;
+            //   background-size: cover;
+            }
             .image{
                 display: flex;
                 justify-content: center;    
@@ -58,17 +64,19 @@
 
               img{
                 margin-top: -4rem;
-                margin-bottom: -2rem;
-                width: 150px;
-                height: 150px;
+                margin-bottom: -2.5rem;
+                width: 80px;
+                height: 65px;
               }
             
             h3{
                 font-size: 1.5rem;
                 margin-bottom: 20px;
+                color: #313a58;
             }
         }
             p{
+                margin-top: 10px;
                 font-size: 1.2rem;
                 font-weight: 500;
                 text-align: center;
@@ -78,7 +86,7 @@
                 margin-top: 15px;
                 padding: 6px 12px;
                 border-radius: 8px;
-                color: rgb(26, 140, 255);
+                color: rgb(61, 80, 99);
                 background:  rgba(26, 141, 255, 0.26);;
             }
         }

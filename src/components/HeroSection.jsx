@@ -18,8 +18,8 @@ function HeroSection() {
       <main className="about">
         <h2>Hi, I'am Al-ameen. Nice to meet you.</h2>
         <p>
-          Since beginning my journey as a freelance designer over 2 years, I've
-          done remote work for agencies, Worked as an inter, and collaborated
+          Since beginning my journey as a freelancer for over 2 years, I've
+          done remote work for agencies, Worked as an intern, and collaborated
           with talented people to create digital products for both business and
           consumer use. I'm quietly confident, naturally curious, fast learner
           and self motivated person that's willing to go beyond and above any
