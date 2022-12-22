@@ -6,8 +6,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import { FreeMode, Pagination } from "swiper";
+import { useNavigate } from "react-router-dom";
 
 function Testimonies() {
+  const Navigate = useNavigate();
   return (
     <div className="Testimony">
       <div className="testimony">
@@ -53,7 +55,7 @@ function Testimonies() {
       <div className="project">
             <h3>Start a project</h3>
             <p>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
-            <button>Lets do this</button>
+            <button onClick={() => Navigate("/project")}>Lets do this</button>
         </div>
     </div>
   );
