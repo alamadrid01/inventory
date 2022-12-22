@@ -1,5 +1,6 @@
 import React from "react";
 import femi from "./assets/designer.svg";
+import mentor from "./assets/mentor.svg";
 import "./styles/Testimonies.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -16,9 +17,9 @@ function Testimonies() {
           className="mySwiper"
           slidesPerView={1}
           spaceBetween={10}
-          freeMode={true}
+          freeMode={false}
           pagination={{
-            clickable: true,
+            clickable: false,
           }}
           modules={[FreeMode, Pagination]}
         >
@@ -26,8 +27,8 @@ function Testimonies() {
             <div className="swiper-content">
               <img src={femi} alt="" />
               <p>
-                “Al-ameen was a real pleasure to work with and we look forward
-                to working with him again. He’s definitely the kind of{" "}
+                “It's a real pleasure to work with Al-ameen and we look forward
+                to work with him again. He’s definitely the kind of guy{" "}
                 <developer></developer> you can trust with a project from start
                 to finish.”
               </p>
@@ -37,15 +38,14 @@ function Testimonies() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-content">
-              <img src={femi} alt="" />
+              <img src={mentor} alt="" />
               <p>
-                “Al-ameen was a real pleasure to work with and we look forward
-                to working with him again. He’s definitely the kind of{" "}
-                <developer></developer> you can trust with a project from start
-                to finish.”
+                “Al-ameen is a clear communicator with the tenacity and confident to
+                really dig in to tricky design scenarios and the collaborative
+                friction that's needed to produce excellent work.”
               </p>
-              <h3>Bamifemi </h3>
-              <span>CEO, Bamifemi Art</span>
+              <h3>Mark </h3>
+              <span>CEO, Hotel NG</span>
             </div>
           </SwiperSlide>
         </Swiper>

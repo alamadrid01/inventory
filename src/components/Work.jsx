@@ -7,7 +7,7 @@ function Work() {
     <div>
       <div className="work">
         <h2>My Recent Projects</h2>
-        <p>Here are a few past design projects I've worked on. Want to see more? <form action="mailto:adebayoalameen88@gmail.com" encType='text/plain' method='post'><button type='submit'>Email me.</button></form> </p>
+        <p>Here are a few past projects I've worked on. Want to see more? <form action="mailto:adebayoalameen88@gmail.com" encType='text/plain' method='post'><button type='submit'>Email me.</button></form> </p>
         <div className="card-holder">
             <div className="card">
                 <div className="image">

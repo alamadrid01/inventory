@@ -5,8 +5,6 @@ import Contact from './pages/Contact'
 import Homepage from './pages/Homepage'
 
 function App() {
-
-
   return (
     <div className="App">
       <Router>

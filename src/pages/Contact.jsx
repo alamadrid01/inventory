@@ -1,9 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../components/styles/Contact.scss";
+import back from "../components/assets/arrow.png";
 
 function Contact() {
+  const Navigate = useNavigate();
   return (
     <div className="contact">
+      <img onClick={() => Navigate("/")} src={back} alt="back-arrow" />
       <h1>
         Thanks for taking the time to reach out. How can I help you today?
       </h1>

@@ -9,7 +9,7 @@ function HeroSection() {
     <div className="hero">
       <main className="heroSection">
         <h1>Full Stack Developer & Gamer</h1>
-        <p>Hi! I am developer and code things, and i love what i do. </p>
+        <p>Hi! I am a developer and I code things. </p>
         <div className="picture">
           <img src={me} alt="myself" />
         </div>
@@ -57,7 +57,7 @@ function HeroSection() {
              I value simple content structure, clean code and thoughtful interactions.
             </p>
             <p className="language" >Languages i speak:</p>
-            <p className="languages">PHP, Javascript, SQL, NoSQL, Git, Github.</p>
+            <p className="languages">PHP, Javascript, SQL, NoSQL, Git and Github.</p>
             <p className="tools">Dev Tools:</p>
             <ul>
               <li>VS Code</li>
@@ -72,21 +72,20 @@ function HeroSection() {
             <div className="icon_holder">
             <img src={frontend} alt="front-end" />
             </div>
-            <h3>Front-End Developer</h3>
+            <h3>Designer</h3>
             <p className="title">
-              I like to code things from scratch,
-              and enjoy bringing ideas to life in the browser.
+            I value , clean design patterns, and thoughtful interactions.
             </p>
-            <p className="language">Languages i speak:</p>
-            <p className="languages">HTML, Tailwind, Javascript, CSS, Sass, Git</p>
-            <p className="tools">Dev Tools:</p>
+            <p className="language">Experiences I draw from:</p>
+            <p className="languages">UX/UI, Product design, Freelancing, Websites, Web apps.</p>
+            <p className="tools">Design Tools:</p>
             <ul>
-              <li>VS Code</li>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Terminal</li>
-              <li>Netlify</li>
-              <li>Render</li>
+              <li>Figma</li>
+              <li>Font Awesome</li>
+              <li>Sketch</li>
+              <li>Corel Draw</li>
+              <li>Adobe Photoshop</li>
+              <li>PicsArt</li>
             </ul>
           </div>
         </div>
