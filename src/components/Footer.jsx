@@ -9,11 +9,6 @@ import linkedin from './assets/linkedin.png'
 function Footer() {
   return (
     <div className='footer'>
-        <div className="project">
-            <h3>Start a project</h3>
-            <p>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
-            <button>Lets do this</button>
-        </div>
       <footer>
         <img src={letter} alt="letter" />
         <h3>Living, learning, & leveling up one day at a time.</h3>

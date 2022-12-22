@@ -9,7 +9,7 @@ import { FreeMode, Pagination } from "swiper";
 
 function Testimonies() {
   return (
-    <div>
+    <div className="Testimony">
       <div className="testimony">
         <h2>Testimonials</h2>
         <p>People i have worked for have some nice things to say...</p>
@@ -50,6 +50,11 @@ function Testimonies() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <div className="project">
+            <h3>Start a project</h3>
+            <p>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
+            <button>Lets do this</button>
+        </div>
     </div>
   );
 }
