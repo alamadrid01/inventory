@@ -28,7 +28,6 @@
         padding: 0 10px;
         box-sizing: border-box;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -38,8 +37,6 @@
         top: 8rem;
 
         .card{
-            width: 360px;
-            // height: 350px;
             margin-bottom: 8rem;
             border: 1px solid #6d07f34f;
             border-radius: 15px;
@@ -88,6 +85,43 @@
                 border-radius: 8px;
                 color: rgb(26, 140, 255);
                 background:  rgba(26, 141, 255, 0.26);;
+            }
+        }
+    }
+}
+@media (max-width: 1024px){
+    .work{
+        .card-holder{
+            gap: 0;
+        }
+    }
+}
+@media (min-width: 780px){
+    .work{
+        .card-holder{
+            .card{
+                width: 360px;
+            }
+        }
+    }
+}
+@media (max-width: 780px){
+    .work{
+        margin-top: 5rem;
+        padding: 2rem;
+
+        p{
+            flex-direction: column;
+            gap: 5px;
+        }
+        .card-holder{
+            top: 1rem;
+            position: relative;
+            gap: 20px;
+            flex-direction: column;
+
+            .card{
+                margin-bottom: 0;
             }
         }
     }

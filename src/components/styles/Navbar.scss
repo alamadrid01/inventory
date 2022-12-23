@@ -53,4 +53,23 @@ nav{
         }
     }
   }
+
+}
+
+@media (max-width: 1024px){
+  nav{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+  }
+}
+
+@media (max-width: 600px){
+  nav{
+    margin-bottom: -1.5rem;
+  .right{
+   display: none;
+
+  }
+}
 }

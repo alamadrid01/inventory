@@ -30,8 +30,7 @@ function Testimonies() {
               <img src={femi} alt="" />
               <p>
                 “It's a real pleasure to work with Al-ameen and we look forward
-                to work with him again. He’s definitely the kind of guy{" "}
-                <developer></developer> you can trust with a project from start
+                to work with him again. He’s definitely the kind of guy you can trust with a project from start
                 to finish.”
               </p>
               <h3>Bamifemi </h3>

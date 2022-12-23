@@ -4,10 +4,11 @@ import HeroSection from './HeroSection'
 import Startup from './Startup'
 import Testimonies from './Testimonies'
 import Work from './Work'
+import "./styles/Home.scss"
 
 function Home() {
   return (
-    <div>
+    <div className='home'>
         <HeroSection />
         <Work />
         <Startup />

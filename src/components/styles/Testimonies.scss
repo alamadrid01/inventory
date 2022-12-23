@@ -1,10 +1,13 @@
 .Testimony{
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   .project{
+    margin: 0 50px;
     position: absolute;
-    bottom: -10rem;
+    bottom: -6rem;
     padding:0 50px ;
-    margin: 1rem calc((90vw - 1000px) / 2);
     height: 8rem;
     background-color: #141c3a;
     color: white;
@@ -62,6 +65,7 @@
 }
 
 .mySwiper {
+  max-width: 80%;
   width: 900px;
 
   .swiper-content {
