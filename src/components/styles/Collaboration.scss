@@ -8,7 +8,6 @@
 
     h2{
         text-align: center;
-        width: 50%;
         font-size: 2rem;
         margin-bottom: 2rem;
         line-height: 1.25;
@@ -61,5 +60,11 @@
 @media (max-width: 780px){
     .collaboration{
         margin-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        h2{
+            text-align: left;
+        }
     }
 }
