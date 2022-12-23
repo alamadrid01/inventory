@@ -51,11 +51,11 @@ function Testimonies() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="project">
+      {/* <div className="project">
             <h3>Start a project</h3>
             <p>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
             <button onClick={() => Navigate("/project")}>Lets do this</button>
-        </div>
+        </div> */}
     </div>
   );
 }

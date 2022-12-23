@@ -45,13 +45,13 @@
 }
 }
 .testimony {
+  width: 100%;
   background-color: #fff;
   padding: 20px;
   margin-bottom: 80px;
   margin-top: 4rem;
   padding-top: 4rem;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 
   h2 {
@@ -88,6 +88,20 @@
       line-height: 1.5;
       width: 80%;
       font-weight: 400;
+    }
+  }
+}
+@media (max-width: 768px){
+  .testimony{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (max-width: 636px){
+  .testimony{
+   
+    .mySwiper{
+      max-width: 100%;
     }
   }
 }
