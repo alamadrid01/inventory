@@ -11,6 +11,7 @@
         font-size: 2rem;
         margin-bottom: 2rem;
         line-height: 1.25;
+        color: #141c3a;
     }
     .logo{
         margin-top: 2rem;
@@ -21,19 +22,20 @@
             height: 50px;
         }
         p{
-            
             font-size: 1.5rem;
             font-weight: 600;
             color: rgba(26, 14, 80, 0.966);
         }
     }
     h3{
+        color: #141c3a;
         margin-top: 4rem;
         font-size: 1.5rem;
     }
     p{
         margin-top: 1rem;
         font-size: 1.25rem;
+        color: #141c3a;
     }
     button{
         margin-top: 2rem;
@@ -55,6 +57,13 @@
 @media (max-width: 1200px){
     .collaboration{
         margin-top: 48rem;       
+    }
+}
+@media (min-width: 1200px){
+    .collaboration{
+        h2{
+            width: 60%;
+        }      
     }
 }
 @media (max-width: 780px){
