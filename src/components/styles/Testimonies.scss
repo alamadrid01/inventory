@@ -10,7 +10,7 @@
     padding:0 50px ;
     height: 8rem;
     background-color: #141c3a;
-    color: white;
+    color: rgb(84, 78, 78);
     display: flex;
     border-radius: 10px;
     justify-content: space-around;
@@ -53,14 +53,19 @@
   padding-top: 4rem;
   border-radius: 5px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
 
   h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #141c3a;
+    color: rgb(84, 78, 78);
   }
   p{
-    color: #141c3a;
+    color: rgba(80, 76, 76, 0.733);
     font-size: 1.25rem;
     margin-bottom: 4rem;
   }
@@ -75,7 +80,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    color: #141c3a;
+    color: rgb(84, 78, 78);
 
     img{
         width: 100px;
@@ -83,6 +88,7 @@
         border-radius: 50%;
     }
     p {
+      color: rgba(80, 76, 76, 0.733);
       text-align: center;
       font-size: 1.4rem;
       line-height: 1.5;
@@ -99,7 +105,10 @@
 }
 @media (max-width: 636px){
   .testimony{
-   
+   p{
+    text-align: center;
+    width: 90%;
+   }
     .mySwiper{
       max-width: 100%;
     }

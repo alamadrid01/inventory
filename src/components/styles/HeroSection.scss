@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #141c3a;
+    color: rgb(84, 78, 78);
     text-align: center;
     font-size: 1.5rem;
     h1 {
@@ -23,7 +23,6 @@
     }
     p {
       font-size: clamp(1rem, 3vw, 1.5rem);
-      color: rgba(10, 10, 10, 0.9);
       font-weight: 400;
     }
     .picture {
@@ -68,10 +67,11 @@
     h2 {
       font-size: clamp(2rem, 4vw, 1rem);
       margin-bottom: 1.6rem;
+      line-height: 1.25;
     }
     p {
       text-align: center;
-      line-height: 1.5;
+      line-height: 1.6;
       font-size: clamp(1rem, 3vw, 1.25rem);
       font-weight: 4000;
     }
@@ -109,6 +109,7 @@
           padding: 1rem 1.2rem;
           background: #07f3c0;
           border-radius: 50%;
+          color: rgb(84, 78, 78);
           img {
             object-fit: cover;
             width: 40px;
@@ -116,7 +117,7 @@
           }
         }
         h3 {
-          color: rgb(20, 28, 58);
+          color: rgb(84, 78, 78);
           font-weight: 600;
           font-size: 20px;
         }
@@ -124,6 +125,7 @@
           line-height: 1.5;
           font-size: 18px;
           font-weight: 400;
+          color: rgba(84, 78, 78, 0.841);
         }
         .title{
           margin: 40px 0;
@@ -135,7 +137,7 @@
         }
         .languages{
           margin: 10px 0;
-          color: rgb(20, 28, 58);
+          color: rgba(84, 78, 78, 0.841);
           
         }
         ul{
@@ -144,7 +146,7 @@
 
           li{
             margin: .4rem;
-            color: rgb(20, 28, 58);
+            color: rgb(84, 78, 78);
             font-weight: 550;
           }
         }

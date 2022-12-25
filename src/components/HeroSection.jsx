@@ -37,7 +37,7 @@ function HeroSection() {
               and enjoy bringing ideas to life in the browser.
             </p>
             <p className="language">Languages i speak:</p>
-            <p className="languages">HTML, Tailwind, Javascript, CSS, Sass, Git</p>
+            <p className="languages">HTML, Tailwind, Javascript, CSS, Sass, Git and Github.</p>
             <p className="tools">Dev Tools:</p>
             <ul>
               <li>VS Code</li>
