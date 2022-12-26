@@ -1,6 +1,7 @@
   
 footer{
     position: relative;
+    z-index: -10;
     background: #6e07f3;
     padding: 1rem calc((90vw - 1000px) / 2);
     display: flex;
@@ -10,8 +11,10 @@ footer{
     flex-direction: column;
     gap: 40px;
     text-align: center;
-    margin-top: 2rem;
+    // margin-top: 2rem;
     padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     img{
         width: 70px;
@@ -19,7 +22,6 @@ footer{
     }
 
     h3{
-        width: 40%;
         line-height: 1.25;
         color: rgba(255, 255, 255, 0.822);
     }

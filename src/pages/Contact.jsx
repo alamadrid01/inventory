@@ -11,6 +11,7 @@ function Contact() {
       <h1>
         Thanks for taking the time to reach out. How can I help you today?
       </h1>
+      <div className="wrapper">
       <form action="">
         <div className="hold">
           <div className="a">
@@ -28,6 +29,7 @@ function Contact() {
           </div>
           <button type="submit">Submit</button>
       </form>
+      </div>
     </div>
   );
 }
