@@ -16,7 +16,7 @@ function HeroSection() {
         <img className="hero-image" src={hero} alt="hero_image" />
       </main>
       <main className="about">
-        <h2>Hi, I'am Al-ameen. Nice to meet you.</h2>
+        <h2>Hi! I'am Al-ameen. Nice to meet you.</h2>
         <p>
           Since beginning my journey as a freelancer for over 2 years, I've
           done remote work for agencies, Worked as an intern, and collaborated
